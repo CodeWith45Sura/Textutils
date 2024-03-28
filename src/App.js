@@ -60,7 +60,7 @@ document.title="Textutils is superb webpage";
       <div className="container my-3">
         <>
 <Routes>
-  <Route path='/' element={<TextForm showAlert={showAlert} heading="Try TextUtils - Word Counter, Character Counter, Remove Extra Spaces, UpperCase, Lowercase" mode={mode}/>}></Route>
+  <Route path='/Textutils' element={<TextForm showAlert={showAlert} heading="Try TextUtils - Word Counter, Character Counter, Remove Extra Spaces, UpperCase, Lowercase" mode={mode}/>}></Route>
   <Route path='/about' element={<About mode={mode}/>}></Route>
   
 </Routes>
